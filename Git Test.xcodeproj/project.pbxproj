@@ -21,6 +21,7 @@
 		6DC9761E193AE95A00562FA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC97600193AE95A00562FA4 /* UIKit.framework */; };
 		6DC97626193AE95A00562FA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DC97624193AE95A00562FA4 /* InfoPlist.strings */; };
 		6DC97628193AE95A00562FA4 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC97627193AE95A00562FA4 /* Git_TestTests.m */; };
+		6DC97633193AF48A00562FA4 /* TTTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC97632193AF48A00562FA4 /* TTTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6DC97623193AE95A00562FA4 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		6DC97625193AE95A00562FA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6DC97627193AE95A00562FA4 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		6DC97631193AF48A00562FA4 /* TTTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTTest.h; sourceTree = "<group>"; };
+		6DC97632193AF48A00562FA4 /* TTTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				6DC97612193AE95A00562FA4 /* TTTViewController.m */,
 				6DC97614193AE95A00562FA4 /* Images.xcassets */,
 				6DC97603193AE95A00562FA4 /* Supporting Files */,
+				6DC97631193AF48A00562FA4 /* TTTTest.h */,
+				6DC97632193AF48A00562FA4 /* TTTTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC97633193AF48A00562FA4 /* TTTTest.m in Sources */,
 				6DC97613193AE95A00562FA4 /* TTTViewController.m in Sources */,
 				6DC97609193AE95A00562FA4 /* main.m in Sources */,
 				6DC9760D193AE95A00562FA4 /* TTTAppDelegate.m in Sources */,
